@@ -1,0 +1,28 @@
+DDL
+CREATE object_name
+  CREATE DATABASE db_name;
+  
+  CREATE TABLE TableName (
+    Kolum1 DataType,
+    Kolum1 DataType,
+  );
+
+  
+
+ALTER object_name
+  ALTER TABLE TableName
+  ADD ColumnName DataType;
+
+DROP object_name
+  DROP DATABASE db_name;
+  DROP TABLE TableName;
+
+DML
+
+
+DCL
+
+
+DQL
+
+
