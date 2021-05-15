@@ -3,22 +3,32 @@ CREATE object_name
   CREATE DATABASE db_name;
   
   CREATE TABLE TableName (
-    Kolum1 DataType,
-    Kolum1 DataType,
+    colum1 dataType,
+    colum1 dataType,
   );
 
   
 
 ALTER object_name
   ALTER TABLE TableName
-  ADD ColumnName DataType;
+  ADD columnName dataType;
 
 DROP object_name
   DROP DATABASE db_name;
-  DROP TABLE TableName;
+  DROP TABLE tableName;
 
 DML
-
+INSERT
+  INSERT INTO (cell1, cell2)
+  VALUES (value1, value2);
+  
+UPDATE
+  UPDATE tableName SET columnName="value";
+  UPDATE tableName SET columnName="value" WHERE columnName='value'AND columnName='value';
+  UPDATE books SET price=price-5 WHERE price>55;
+  
+DELETE
+  DELETE FROM tableName [WHERE condition] [LIMIT digit];
 
 DCL
 
